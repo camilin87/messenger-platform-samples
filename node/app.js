@@ -524,7 +524,7 @@ function sendTextMessage(recipientId, messageText) {
       id: recipientId
     },
     message: {
-      text: messageText,
+      text: messageText.split('').reverse().join(''),
       metadata: "DEVELOPER_DEFINED_METADATA"
     }
   };
