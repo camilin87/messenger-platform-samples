@@ -1,5 +1,8 @@
 {
   "scripts": {
     "start": "cd node && npm i && npm start"
-  }
+  },
+  "cacheDirectories": [
+    "node/node_modules"
+  ]
 }
